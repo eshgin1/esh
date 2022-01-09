@@ -1,0 +1,1663 @@
+@charset "UTF-8";
+/*!
+ * Bootstrap Reboot v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
+ */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+[tabindex="-1"]:focus {
+  outline: 0 !important;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+abbr[data-original-title], abbr[title] {
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+  cursor: help;
+  border-bottom: 0;
+  -webkit-text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+address {
+  margin-bottom: 1rem;
+  font-style: normal;
+  line-height: inherit;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+ol ol, ol ul, ul ol, ul ul {
+  margin-bottom: 0;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+dt {
+  font-weight: 700;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+dd {
+  margin-bottom: .5rem;
+  margin-left: 0;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+blockquote {
+  margin: 0 0 1rem;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+b, strong {
+  font-weight: bolder;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+sub, sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+sub {
+  bottom: -.25em;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+sup {
+  top: -.5em;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+a:not([href]):not([tabindex]):focus {
+  outline: 0;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+code, kbd, pre, samp {
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  font-size: 1em;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+figure {
+  margin: 0 0 1rem;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+table {
+  border-collapse: collapse;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+caption {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  color: #6c757d;
+  text-align: left;
+  caption-side: bottom;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+th {
+  text-align: inherit;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+button {
+  border-radius: 0;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+button, input {
+  overflow: visible;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+button, select {
+  text-transform: none;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+select {
+  word-wrap: normal;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+[type=button], [type=reset], [type=submit], button {
+  -webkit-appearance: button;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  cursor: pointer;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+input[type=date], input[type=datetime-local], input[type=month], input[type=time] {
+  -webkit-appearance: listbox;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+textarea {
+  overflow: auto;
+  resize: vertical;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+legend {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  color: inherit;
+  white-space: normal;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+[type=search] {
+  outline-offset: -2px;
+  -webkit-appearance: none;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+::-webkit-file-upload-button {
+  font: inherit;
+  -webkit-appearance: button;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+output {
+  display: inline-block;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+summary {
+  display: list-item;
+  cursor: pointer;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+template {
+  display: none;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/libs/_bootstrap-reboot.min.scss */
+[hidden] {
+  display: none !important;
+}
+
+/* line 5, ../../../Desktop/готовые проекты/eshgin/src/sass/style.scss */
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 11, ../../../Desktop/готовые проекты/eshgin/src/sass/style.scss */
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 1, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_promo.scss */
+.promo {
+  position: relative;
+  min-height: 100vh;
+  background: url("../img/esh.png") no-repeat 50%/cover;
+  padding-top: 205px;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_promo.scss */
+.promo__btns {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+}
+
+/* line 15, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_promo.scss */
+.promo__link {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* line 18, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_promo.scss */
+.promo__link:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 1, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_title.scss */
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  color: #ffff;
+}
+
+/* line 5, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_title.scss */
+.title_fz16px {
+  font-size: 16px;
+  line-height: 24px;
+  z-index: 2;
+}
+
+/* line 2, ../../../Desktop/готовые проекты/eshgin/src/sass/base/_mixins.scss */
+.title_fz16px::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -25%;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: #FFA501;
+}
+
+/* line 10, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_title.scss */
+.title_fz16px::before {
+  top: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 17, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_title.scss */
+.title_fz48px {
+  font-size: 48px;
+}
+
+/* line 20, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_title.scss */
+.title_fz14px {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* line 24, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_title.scss */
+.title_fz20px {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* line 28, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_title.scss */
+.title__section-title {
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 2, ../../../Desktop/готовые проекты/eshgin/src/sass/base/_mixins.scss */
+.title__section-title::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -25%;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: #FFA501;
+}
+
+/* line 33, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_title.scss */
+.title__section-title::before {
+  top: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 39, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_title.scss */
+.title__section-subtitle {
+  text-align: center;
+}
+
+/* line 42, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_title.scss */
+.title_policy {
+  text-align: center;
+  font-weight: 700;
+  color: black;
+  font-size: 16px;
+}
+
+/* line 1, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_btn.scss */
+.btn {
+  padding: 12px 25px;
+  height: 45px;
+  background: #FFA501;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* line 1, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_sidepanel.scss */
+.sidepanel {
+  position: fixed;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+  top: 230px;
+  left: 50px;
+}
+
+/* line 11, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_sidepanel.scss */
+.sidepanel__divider {
+  height: 70px;
+  background: #fff;
+  width: 2px;
+}
+
+/* line 16, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_sidepanel.scss */
+.sidepanel__text {
+  height: 150px;
+  width: 25px;
+  color: #fff;
+}
+
+/* line 20, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_sidepanel.scss */
+.sidepanel__text span {
+  transform: rotate(-90deg) translate(-30%, -260%);
+  display: block;
+  width: 150px;
+}
+
+/* line 1, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_menu.scss */
+.hamburger {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  height: 21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+/* line 11, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_menu.scss */
+.hamburger span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #151812;
+}
+
+/* line 18, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_menu.scss */
+.hamburger span.long {
+  width: 36px;
+}
+
+/* line 23, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_menu.scss */
+.menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.6s;
+}
+
+/* line 33, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_menu.scss */
+.menu.active {
+  left: 0;
+  visibility: visible;
+  opacity: 1;
+}
+
+/* line 38, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_menu.scss */
+.menu__block {
+  position: relative;
+  width: 345px;
+  height: 100%;
+  padding-top: 140px;
+  padding-left: 40px;
+  background: #FFA501;
+  transition: all 0.6s;
+  z-index: 10;
+}
+
+/* line 49, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_menu.scss */
+.menu__close {
+  position: absolute;
+  cursor: pointer;
+  top: 25px;
+  right: 25px;
+}
+
+/* line 55, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_menu.scss */
+.menu__list {
+  list-style-type: none;
+  padding-left: 35px;
+}
+
+/* line 59, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_menu.scss */
+.menu__link {
+  position: relative;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+/* line 65, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_menu.scss */
+.menu__link:before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: -35px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  border: 1px solid #000000;
+}
+
+/* line 76, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_menu.scss */
+.menu__link:hover::before {
+  background: #fff;
+}
+
+/* line 80, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_menu.scss */
+.menu__link a {
+  color: #FFFFFF;
+}
+
+/* line 84, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_menu.scss */
+.menu__social {
+  position: absolute;
+  width: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 95, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_menu.scss */
+.menu__overlay {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 0.75;
+  top: 0;
+}
+
+/* line 1, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_eshgin.scss */
+.eshgin {
+  background-color: #e4d8d8;
+  padding-top: 120px;
+}
+
+/* line 4, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_eshgin.scss */
+.eshgin__block {
+  display: grid;
+  grid-template-columns: 400px 570px;
+  align-items: start;
+  gap: 70px;
+}
+
+/* line 10, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_eshgin.scss */
+.eshgin__photo {
+  width: 400px;
+  height: 600px;
+}
+
+/* line 13, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_eshgin.scss */
+.eshgin__photo img {
+  width: 100%;
+}
+
+/* line 17, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_eshgin.scss */
+.eshgin__info {
+  display: grid;
+  grid-template-rows: minmax(100px, auto);
+}
+
+/* line 22, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_eshgin.scss */
+.eshgin__biography .title {
+  position: relative;
+}
+
+/* line 2, ../../../Desktop/готовые проекты/eshgin/src/sass/base/_mixins.scss */
+.eshgin__biography .title::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -25%;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: #FFA501;
+}
+
+/* line 27, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_eshgin.scss */
+.eshgin__portfolio {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 260px 260px;
+  grid-template-rows: minmax(116px, auto);
+  column-gap: 40px;
+  row-gap: 20px;
+}
+
+/* line 36, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_eshgin.scss */
+.eshgin__elem {
+  display: grid;
+  grid-template-columns: 40px 200px;
+  gap: 20px;
+}
+
+/* line 41, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_eshgin.scss */
+.eshgin__text {
+  margin-top: 10px;
+}
+
+/* line 1, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_text.scss */
+.text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+/* line 5, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_text.scss */
+.text_fz12px {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* line 1, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_divider.scss */
+.divider {
+  margin: 25px auto 0 auto;
+  width: 60px;
+  height: 0px;
+  border: 3px solid;
+  color: #FFA501;
+}
+
+/* line 7, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_divider.scss */
+.divider_mintop {
+  margin: 0;
+}
+
+/* line 1, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_resume.scss */
+.resume {
+  background-color: #e4d8d8;
+}
+
+/* line 4, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_resume.scss */
+.resume__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 425px);
+  padding: 60px 65px 0 65px;
+  column-gap: 135px;
+}
+
+/* line 11, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_resume.scss */
+.resume__column-title {
+  position: relative;
+  padding-left: 35px;
+}
+
+/* line 14, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_resume.scss */
+.resume__column-title:before {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #FFA501;
+  border-radius: 100%;
+  left: -7px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 27, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_resume.scss */
+.resume__column ul {
+  list-style-type: none;
+}
+
+/* line 29, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_resume.scss */
+.resume__column ul li {
+  position: relative;
+}
+
+/* line 31, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_resume.scss */
+.resume__column ul li::after {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: calc(100% + 16px);
+  top: -16px;
+  left: 0;
+  background-color: #000;
+}
+
+/* line 44, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_resume.scss */
+.resume__item {
+  position: relative;
+}
+
+/* line 46, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_resume.scss */
+.resume__item::before {
+  top: 68px;
+  content: '';
+  height: 1px;
+  width: 43px;
+  position: absolute;
+  background-color: #000;
+}
+
+/* line 54, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_resume.scss */
+.resume__item-head {
+  position: relative;
+  padding: 45px 0 0 100px;
+}
+
+/* line 58, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_resume.scss */
+.resume__item-body {
+  padding-left: 43px;
+  margin-top: 12px;
+}
+
+/* line 62, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_resume.scss */
+.resume__item-icon {
+  position: absolute;
+  top: 55px;
+  left: 45px;
+  z-index: 3;
+}
+
+/* line 2, ../../../Desktop/готовые проекты/eshgin/src/sass/base/_mixins.scss */
+.resume__item-icon::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -25%;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: #FFA501;
+}
+
+/* line 68, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_resume.scss */
+.resume__item-icon img {
+  position: absolute;
+  left: 17px;
+  top: 14px;
+}
+
+/* line 74, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_resume.scss */
+.resume__item-location {
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* line 79, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_resume.scss */
+.resume__item-body {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* line 1, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_skills.scss */
+.skills {
+  background-color: #e4d8d8;
+  padding-top: 156px;
+}
+
+/* line 4, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_skills.scss */
+.skills__block {
+  padding: 60px 10px 0 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  grid-template-rows: repeat(2, minmax(270px));
+  gap: 13px;
+}
+
+/* line 11, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_skills.scss */
+.skills__elem {
+  padding: 30px 30px 25px 30px;
+  border: 1px solid #000;
+}
+
+/* line 14, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_skills.scss */
+.skills__elem-title {
+  margin: 20px 0 15px 0;
+  color: #000;
+}
+
+/* line 19, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_skills.scss */
+.skills__experience {
+  padding: 120px 0;
+  display: grid;
+  grid: 70px 70px / 350px 350px 250px;
+  gap: 45px;
+}
+
+/* line 25, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_skills.scss */
+.skills__list {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+/* line 30, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_skills.scss */
+.skills__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 34, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_skills.scss */
+.skills__divider {
+  width: 350px;
+  height: 14px;
+  background: #E8E4DE;
+}
+
+/* line 38, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_skills.scss */
+.skills__divider span {
+  display: block;
+  height: 100%;
+  color: #FFA501;
+}
+
+/* line 44, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_skills.scss */
+.skills__wrapper-title {
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 2, ../../../Desktop/готовые проекты/eshgin/src/sass/base/_mixins.scss */
+.skills__wrapper-title::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -25%;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: #FFA501;
+}
+
+/* line 49, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_skills.scss */
+.skills__wrapper-title::before {
+  top: -6px;
+  left: 0;
+  transform: translateX(-50%);
+}
+
+/* line 1, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_portfolio.scss */
+.portfolio {
+  padding-top: 120px;
+  background: #e4d8d8;
+}
+
+/* line 4, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_portfolio.scss */
+.portfolio__wrapper {
+  margin-top: 60px;
+  display: grid;
+  grid-template: repeat(2, 280px)/repeat(4, 280px);
+  grid-auto-flow: 280px;
+  gap: 5px;
+}
+
+/* line 10, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_portfolio.scss */
+.portfolio__wrapper .vertical {
+  grid-row: 1 / 3;
+  grid-column: 4 / 5;
+}
+
+/* line 14, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_portfolio.scss */
+.portfolio__wrapper .horizonal {
+  grid-row: 2 / 3;
+  grid-column: 2 / 4;
+}
+
+/* line 19, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_portfolio.scss */
+.portfolio a {
+  transition: all 0.6s;
+}
+
+/* line 21, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_portfolio.scss */
+.portfolio a img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* line 26, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_portfolio.scss */
+.portfolio a:hover {
+  transform: scale(1.03);
+}
+
+/* line 1, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_price.scss */
+.price {
+  padding-top: 60px;
+  background: #e4d8d8;
+}
+
+/* line 4, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_price.scss */
+.price__wrapper {
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(2, 366px);
+  justify-content: space-around;
+}
+
+/* line 10, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_price.scss */
+.price__list {
+  display: grid;
+  grid-template-rows: repeat(3, 44px);
+  width: 370px;
+  gap: 15px;
+}
+
+/* line 16, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_price.scss */
+.price__block {
+  position: relative;
+}
+
+/* line 19, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_price.scss */
+.price__block-title::before {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #FFA501;
+  border-radius: 100%;
+  left: calc(-10px + -15px);
+  top: 2px;
+}
+
+/* line 31, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_price.scss */
+.price__block-elem {
+  display: grid;
+  grid-template-columns: 188px 121px;
+  justify-content: space-between;
+}
+
+/* line 1, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_contact.scss */
+.contact {
+  position: relative;
+  padding: 120px 0 90px 0;
+  background-color: #e4d8d8;
+}
+
+/* line 5, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_contact.scss */
+.contact__wrapper {
+  padding: 0 35px 0 52px;
+  display: grid;
+  grid-template-columns: 400px 585px;
+  justify-content: space-between;
+}
+
+/* line 12, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_contact.scss */
+.contact__photo img {
+  width: 100%;
+}
+
+/* line 16, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_contact.scss */
+.contact__text, .contact__social {
+  margin-top: 20px;
+}
+
+/* line 19, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_contact.scss */
+.contact__wrapper {
+  position: relative;
+}
+
+/* line 23, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_contact.scss */
+.contact a {
+  margin-right: 25px;
+}
+
+/* line 25, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_contact.scss */
+.contact a img {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+/* line 30, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_contact.scss */
+.contact__form {
+  margin-top: 20px;
+  display: grid;
+  grid-template: 45px 190px 45px/repeat(2, 280px);
+  justify-content: space-between;
+  row-gap: 30px;
+}
+
+/* line 36, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_contact.scss */
+.contact__form label {
+  display: block;
+  position: absolute;
+  height: 18px;
+  padding: 0 8px;
+  background-color: #e4d8d8;
+  font-size: 12px;
+  margin-bottom: 0;
+  top: -9px;
+  left: 12px;
+}
+
+/* line 48, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_contact.scss */
+.contact__triggers {
+  display: grid;
+  grid-column: 1/3;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 35px;
+}
+
+/* line 54, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_contact.scss */
+.contact__policy {
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+}
+
+/* line 59, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_contact.scss */
+.contact__policy input {
+  margin-right: 10px;
+}
+
+/* line 63, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_contact.scss */
+.contact__input {
+  position: relative;
+}
+
+/* line 65, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_contact.scss */
+.contact__input input {
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* line 74, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_contact.scss */
+.contact__textarea {
+  position: relative;
+  grid-column: 1 / 3;
+}
+
+/* line 77, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_contact.scss */
+.contact__textarea textarea {
+  resize: none;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  font-size: 12px;
+}
+
+/* line 85, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_contact.scss */
+.contact__btn {
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* line 1, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_item.scss */
+.item {
+  margin-left: 50px;
+}
+
+/* line 1, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_subtitle.scss */
+.subtitle {
+  margin: 15px 30px 15px 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+  /* line 2, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .container {
+    max-width: 960px;
+  }
+  /* line 5, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .sidepanel {
+    display: none;
+  }
+  /* line 9, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin__block {
+    grid-template-columns: 400px 500px;
+    gap: 50px;
+  }
+  /* line 13, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin__info {
+    grid-template-columns: 520px;
+  }
+  /* line 16, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin__portfolio {
+    grid-template-columns: 220px 220px;
+  }
+  /* line 21, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .resume__wrapper {
+    grid-template-columns: repeat(2, 386px);
+    justify-content: center;
+  }
+  /* line 26, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .skills {
+    padding-top: 80px;
+  }
+  /* line 28, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .skills__block {
+    justify-content: center;
+    padding-top: 40px;
+    grid-template-columns: repeat(3, 270px);
+  }
+  /* line 33, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .skills__experience {
+    padding-top: 90px;
+    justify-content: center;
+    grid: 70px 70px/270px 270px 270px;
+  }
+  /* line 38, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .skills__list {
+    grid-template-columns: 250px;
+  }
+  /* line 41, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .skills__divider {
+    width: 100%;
+  }
+  /* line 46, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .portfolio__wrapper {
+    grid-template-columns: repeat(auto-fit, 280px);
+    grid-auto-rows: 280px;
+    justify-content: space-around;
+    row-gap: 20px;
+  }
+  /* line 51, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .portfolio__wrapper .horizonal, .portfolio__wrapper .vertical {
+    grid-column: unset;
+    grid-row: unset;
+  }
+  /* line 58, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact__form {
+    grid-template: 45px 45px 190px 45px/repeat(auto-fit, 280px);
+    row-gap: 20px;
+  }
+  /* line 62, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact__wrapper {
+    grid-template-columns: 400px 453px;
+    column-gap: 20px;
+  }
+  /* line 67, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact__mail {
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+  /* line 71, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact__textarea {
+    grid-row: 3 / 5;
+    grid-column: 1/2;
+  }
+  /* line 75, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact__triggers {
+    grid-column: 1 / 2;
+    grid-template: 1fr 1fr / 280px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* line 83, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .container {
+    max-width: 720px;
+  }
+  /* line 87, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin__photo {
+    width: 281px;
+  }
+  /* line 90, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin__block {
+    grid-template-columns: 281px 375px;
+  }
+  /* line 93, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin__info {
+    grid-template-columns: 375px;
+  }
+  /* line 96, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin__elem {
+    grid-template-columns: 28px 130px;
+  }
+  /* line 99, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin__portfolio {
+    grid-template-columns: 190px 162px;
+  }
+  /* line 104, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .resume__wrapper {
+    grid-template-columns: repeat(2, 330px);
+    column-gap: 43px;
+  }
+  /* line 110, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .skills__block {
+    justify-content: center;
+    padding-top: 40px;
+    grid-template-columns: repeat(2, 270px);
+  }
+  /* line 115, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .skills__experience {
+    padding-top: 60px;
+    justify-content: center;
+    grid: 70px 70px/270px 270px;
+    gap: 35px;
+  }
+  /* line 123, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .price__wrapper {
+    padding: 30px 0 0 40px;
+  }
+  /* line 127, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .price__list {
+    width: 330px;
+  }
+  /* line 131, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact {
+    padding-top: 40px;
+  }
+  /* line 133, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact__photo {
+    display: none;
+  }
+  /* line 136, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact__wrapper {
+    grid-template-columns: 1fr;
+  }
+  /* line 139, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact__form {
+    column-gap: 20px;
+    justify-content: unset;
+    grid-template: 45px 190px 45px/repeat(2, 280px);
+  }
+  /* line 144, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact__mail {
+    grid-column: unset;
+    grid-row: unset;
+  }
+  /* line 148, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact__textarea {
+    grid-column: 1 / 3;
+    grid-row: unset;
+  }
+  /* line 152, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact__triggers {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 1/3;
+  }
+  /* line 156, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact__social {
+    display: flex;
+    justify-content: center;
+  }
+  /* line 160, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact .title {
+    text-align: center;
+  }
+  /* line 162, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact .title_fz16px {
+    text-align: center;
+  }
+  /* line 167, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact .divider_mintop {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 178, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .container {
+    max-width: 540px;
+  }
+  /* line 182, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .title_fz48px {
+    font-size: 35px;
+  }
+  /* line 187, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .promo__title {
+    line-height: 39px;
+    width: 300px;
+  }
+  /* line 192, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin {
+    padding: 20px 0;
+  }
+  /* line 194, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin__block {
+    grid-template-columns: 300px;
+    justify-content: center;
+    gap: 30px;
+  }
+  /* line 199, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin__photo {
+    width: 300px;
+    height: auto;
+  }
+  /* line 203, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin__portfolio {
+    justify-content: center;
+    grid-template-columns: 200px;
+  }
+  /* line 207, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin__info {
+    grid-template-columns: 300px;
+  }
+  /* line 211, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin .title {
+    text-align: center;
+  }
+  /* line 213, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin .title_fz16px {
+    text-align: center;
+  }
+  /* line 219, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin .divider_mintop {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  /* line 225, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin .text {
+    text-align: center;
+  }
+  /* line 231, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .resume__wrapper {
+    grid-template-columns: repeat(1, 365px);
+    column-gap: 43px;
+    padding-top: 25px;
+  }
+  /* line 238, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .skills__block {
+    justify-content: center;
+    padding-top: 40px;
+    grid-template-columns: repeat(2, 250px);
+  }
+  /* line 243, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .skills__experience {
+    padding-top: 60px;
+    justify-content: center;
+    grid: 70px 70px/250px 250px;
+    gap: 35px;
+  }
+  /* line 249, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .skills__wrapper {
+    justify-content: space-around;
+  }
+  /* line 253, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .porttolio {
+    padding-top: 40px;
+  }
+  /* line 256, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .price {
+    padding-top: 40px;
+  }
+  /* line 258, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .price__wrapper {
+    margin-top: 20px;
+    grid-template-columns: repeat(auto-fit, 350px);
+    justify-content: center;
+    gap: 21px;
+  }
+  /* line 266, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact .title {
+    text-align: left;
+  }
+  /* line 268, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact .title_fz16px {
+    text-align: left;
+  }
+  /* line 273, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact .divider_mintop {
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  /* line 279, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact .text {
+    text-align: left;
+  }
+  /* line 282, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact__social {
+    justify-content: unset;
+  }
+  /* line 285, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact__form {
+    grid-template: 45px 45px 190px 45px/ 300px;
+  }
+  /* line 288, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact__mail {
+    grid-row: 2 / 3;
+  }
+  /* line 291, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact__textarea {
+    grid-column: 1 / 2;
+  }
+  /* line 294, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact__triggers {
+    grid-template-columns: 300px;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+    grid-column: 1/2;
+    justify-content: center;
+  }
+  /* line 301, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact__policy {
+    grid-row: 1 / 2;
+  }
+}
+
+@media (max-width: 576px) {
+  /* line 308, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  /* line 313, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .title_fz48px {
+    font-size: 26px;
+  }
+  /* line 318, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .hamburger {
+    right: 20px;
+  }
+  /* line 322, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .menu__block {
+    width: 250px;
+    padding-left: 20px;
+  }
+  /* line 327, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .promo {
+    background: url("../img/esh.png") no-repeat 57%/cover;
+  }
+  /* line 329, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .promo__btns {
+    margin-top: 35px;
+  }
+  /* line 334, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin {
+    padding-top: 46px;
+  }
+  /* line 336, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin__photo {
+    display: none;
+  }
+  /* line 339, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin__portfolio {
+    justify-content: left;
+  }
+  /* line 342, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin__elem {
+    grid-template-columns: 30px 250px;
+  }
+  /* line 345, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin .title {
+    text-align: left;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 15px;
+  }
+  /* line 350, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin .title_fz16px {
+    margin-bottom: 10px;
+  }
+  /* line 353, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin .title_fz14px {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 6px;
+  }
+  /* line 360, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin .divider_mintop {
+    margin: 0 0 20px 0;
+  }
+  /* line 365, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .eshgin .text {
+    margin: 0;
+    font-size: 14px;
+    text-align: left;
+  }
+  /* line 373, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .resume .title__section-title {
+    margin-bottom: 26px;
+  }
+  /* line 377, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .resume .title__section-subtitle {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+  /* line 382, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .resume__wrapper {
+    grid-template-columns: repeat(1, 275px);
+    padding: 0px 12px 0 15px;
+  }
+  /* line 386, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .resume__column-title {
+    margin-top: 40px;
+  }
+  /* line 392, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .skills .title__section-title {
+    margin-bottom: 26px;
+  }
+  /* line 396, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .skills .title__section-subtitle {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+  /* line 401, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .skills__block {
+    justify-content: center;
+    padding-top: 20px;
+    grid-template-columns: repeat(1, 270px);
+  }
+  /* line 406, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .skills__experience {
+    padding: 40px 10px 0 10px;
+    justify-content: center;
+    grid: 70px 70px 70px 70px 70px/ 300px;
+    gap: 35px;
+  }
+  /* line 414, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .price__wrapper {
+    padding-left: 0;
+    grid-template-columns: repeat(auto-fit, 300px);
+  }
+  /* line 418, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .price__list {
+    width: 290px;
+  }
+  /* line 421, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .price__block {
+    width: 290px;
+  }
+  /* line 424, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .price .money {
+    font-size: 14px;
+  }
+  /* line 430, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact .title_fz36px {
+    font-size: 24px;
+  }
+  /* line 434, ../../../Desktop/готовые проекты/eshgin/src/sass/blocks/_media.scss */
+  .contact__wrapper {
+    padding: 50px 0px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
